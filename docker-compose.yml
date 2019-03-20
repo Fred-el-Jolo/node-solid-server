@@ -1,0 +1,8 @@
+version: "3.6"
+services:
+  node-solid-server:
+    build:
+      context: .
+    container_name: solid
+    ports:
+      - 8443:8443
